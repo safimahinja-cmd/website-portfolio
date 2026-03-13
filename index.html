@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>safi  | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="container header">
+      <h1>safi </h1>
+      <p class="tagline">Beginner Web Developer (HTML + CSS)</p>
+
+      <img class="hero" src="images/image0.jpeg" alt="Portrait of Safi" />
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section id="about" class="card">
+        <h2>About Me</h2>
+        <p>
+          Hi! I’m safi mahinja i started my career as professional chef but i have eventualy moved and got more interested in web devopement,i was amazed about how much can learn and become. i made it  my mission to go back to school and learn more about it and to show more to the word 
+        . This is my portfolio website built with HTML and
+          CSS. I’m learning web development and showcasing my projects here.
+        </p>
+      </section>
+
+      <section id="projects" class="card">
+        <h2>Projects</h2>
+
+        <div class="projects">
+          <article class="project">
+            <h3>Project 1: Landing Page</h3>
+            <p>A simple landing page using HTML and CSS.</p>
+            <p class="links">
+              <a href="#" target="_blank" rel="noreferrer">Live</a>
+              <a href="#" target="_blank" rel="noreferrer">Code</a>
+            </p>
+          </article>
+
+          <article class="project">
+            <h3>Project 2: Recipe Page</h3>
+            <p>A recipe page demonstrating lists, images, and layout.</p>
+            <p class="links">
+              <a href="#" target="_blank" rel="noreferrer">Live</a>
+              <a href="#" target="_blank" rel="noreferrer">Code</a>
+            </p>
+          </article>
+
+          <article class="project">
+            <h3>Project 3: Portfolio Website</h3>
+            <p>This portfolio site (HTML + CSS only).</p>
+            <p class="links">
+              <a href="#" target="_blank" rel="noreferrer">Live</a>
+              <a href="#" target="_blank" rel="noreferrer">Code</a>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>Contact</h2>
+        <ul>
+          <li>Email: <a href="mailto:safi.mahinja@outlook.com">safi.mahinja@outlook.com</a></li>
+          <li>GitHub: <a href="https://github.com/safimahinja-cmd" target="_blank" rel="noreferrer">safimahinja-cmd</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <p>© <span id="year"></span> safi mahinja</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

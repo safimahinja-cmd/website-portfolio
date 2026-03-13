@@ -1,0 +1,6 @@
+<article class="project">
+  <img class="project-img" src="images0.jpeg" alt="Screenshot of Project 1" />
+  <h3>Project 1: Landing Page</h3>
+  <p>A simple landing page using HTML and CSS.</p>
+</article>
+<img src="images0.jpeg" alt="this is myself">
